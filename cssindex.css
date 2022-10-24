@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}    
+.top-container h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+.top-container h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+.top-container h3{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.top-container{
+    padding: 10px;
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+.top-container .top-cloud{
+    position: relative;
+    left: 16%;
+}
+.top-container .bottom-cloud{
+    position: absolute;
+    left: 25%;
+    /* bottom: 40px; */
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.development-pic{
+    width: 25%;
+    /* border: 3px solid black; */
+    float: left;
+    margin-right: 30px;
+}
+
+.cooking-pic{
+    width: 25%;
+    /* border: 3px solid black; */
+    float: right;
+    margin-left: 30px;
+
+}
+a{
+    color: #11999E;
+    display: inline-block;
+}
+h2{
+    font-weight: normal;
+    color: #11999E;
+
+}
+h3{
+    color: #11999E;
+}
+.profile img{
+    margin-top: 80px;
+    border-radius: 50%;
+    width: 300px;
+}
+.profile h2{
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 2.2rem;
+}
+
+hr{
+    width: 5%;
+    border: none;
+    border-top: 10px dotted #ced8d8;
+}
+.skills h2{
+    margin-top: 90px;
+    font-family: sans-serif;
+    font-size: 2.2rem;
+}
+.contact-me h2{
+    margin-top: 80px;
+    font-family: sans-serif;
+    font-size: 2.2rem;
+}
+.btn{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 35px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 35px;
+    color: white;
+    font-family: sans-serif;
+    background: linear-gradient(180deg,#3be9ef,#11999E);
+    border-radius: 12px;
+    transition: 1s;
+}
+.btn:hover{
+    border: 1px solid #11999E;
+    background: white;
+    color: #11999E;
+}
+.bottom-container{
+    background-color:#66BFBF;
+    margin-top: 100px;
+    padding: 50px 0;
+}
+.bottom-container a{
+    color: #11999E;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding-right: 50px;
+    transition: 1s;
+    line-height: 3;
+}
+.bottom-container a:hover{
+    color: #EAF6F6;
+}
+.bottom-container p{
+    color: #EAF6F6;
+    margin-bottom: 0;
+}
